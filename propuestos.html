@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="propuestos.js" defer></script>
+    <title>Api básica</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <header role="group">
+      </header>
+      <article>
+        <fieldset>
+          <legend>Seleccione una opción:</legend>
+          <label for="opcion1">
+            <input type="radio" id="opcion1" name="opcion" value="1" checked />
+            Calcular Y = X * Z + Z + X
+          </label>
+          <label for="opcion2">
+            <input type="radio" id="opcion2" name="opcion" value="2" />
+            Multiplicar
+          </label>
+          <label for="opcion3">
+            <input type="radio" id="opcion3" name="opcion" value="3" />
+            área de un círculo
+          </label>
+          <label for="opcion4">
+            <input type="radio" id="opcion4" name="opcion" value="4" />
+            área de un cuadrado
+          </label>
+          <label for="opcion5">
+            <input type="radio" id="opcion5" name="opcion" value="5" />
+            área de un triangulo
+          </label>
+        </fieldset>
+        <div>
+            <input type="number" id="t1" name="t1" min="0"/>
+            <input type="number" id="t2" name="t2" min="0"/>
+        <div>
+        <div>
+            <button id="enviar">Enviar</button>
+        </div>
+      </article>
+      <hr/>
+      <div id="contenido"></div>
+    </div>
+  </body>
+</html>
